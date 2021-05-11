@@ -1,0 +1,12 @@
+<script>
+                
+    const formDelete = document.querySelector("#form-deletar");
+    formDelete.addEventListener("submit", function(event){
+        const confirmation = confirm("Deseja apagar esse cadastro?");
+
+        if(!confirmation) {
+            event.preventDefault();
+        }
+    });
+
+</script>

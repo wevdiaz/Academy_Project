@@ -1,0 +1,39 @@
+{% extends "layout.njk" %}
+
+    {% block content %}
+
+    <div class="card">
+
+        <section class="avatar" style="background: url({{Student.avatar_url}}) no-repeat center center / cover"></section>
+
+        <section class="details">
+
+            <form  method="POST" action="/students?_method=PUT">
+
+
+            
+
+                <h3>Editar Cadastro</h3>
+
+                {% include "students/fields.njk" %}
+
+                <input type="hidden" name="id" value="{{Student.id}}">                      
+        
+
+            </form>
+
+            <form id="form-deletar" action="/students?_method=DELETE" method="post">
+                <input type="hidden" name="id" value="{{Student.id}}">
+                <button type="submit">Deletar</button>
+            </form>
+
+            {% include "../confirm.njk" %}
+
+        </section>
+
+    </div>
+    
+
+    
+
+    {% endblock %}

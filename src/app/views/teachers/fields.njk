@@ -1,0 +1,99 @@
+<div class="item">
+                <div>Avatar URL</div>
+                <div>
+                    <input type="url"
+                           name="avatar_url" 
+                           placeholder="http://"
+                           value= "{{teacher.avatar_url}}"
+                           >
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Professor(a)</div>
+                <div>
+                    <input type="text"
+                           name="name"
+                           placeholder="Nome Completo"
+                           value="{{teacher.name}}"
+                           >
+                </div>
+            </div>
+
+             <div class="item">
+                <div>Nascimento</div>
+                <div>
+                    <input type="date" 
+                           name="birth_date"
+                           value="{{teacher.birth_date}}"
+                           >
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Formação</div>
+                <div>
+                    <select name="education_level" placeholder="Selecione">
+
+                        <option 
+                            value="medio"
+                            {% if teacher.education_level == "medio" %}
+                                selected
+                            {% endif %}>Ensino Médio Completo</option>
+
+                        <option 
+                            value="superior"
+                            {% if teacher.education_level == "superior" %}
+                                selected
+                            {% endif %}>Ensino Superior Completo</option>
+                        
+                        <option 
+                            value="mestrado"
+                            {% if teacher.education_level == "mestrado" %}
+                                selected
+                            {% endif %}>Mestrado</option>
+
+                        <option 
+                            value="doutorado"
+                            {% if teacher.education_level == "doutorado" %}
+                                selected
+                            {% endif %}>Doutorado</option>
+                    </select>
+                </div>
+            </div>
+
+             <div class="item">
+                <div>Modo de Aula</div>
+                <div>
+                    <span>
+                        <input type="radio" 
+                               name="class_type"
+                               value="presencial"
+                               {% if teacher.class_type == "presencial" %}
+                                    checked
+                               {% endif %}>Presencial
+                    </span>
+
+                    <span>
+                        <input type="radio"
+                               name="class_type"
+                               value="distancia"
+                               {% if teacher.class_type == "distancia" %}
+                                    checked
+                               {% endif %}>À distância
+                    </span>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Área de atuação</div>
+                <div>
+                    <input type="text"
+                           name="subjects_taught" 
+                           placeholder="Separe por vírgula as materias de atuação"
+                           value="{{teacher.subjects_taught}}"
+                           >
+                </div>
+            </div> 
+
+            <button type="submit">Salvar</button> 
