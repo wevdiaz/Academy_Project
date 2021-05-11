@@ -26,7 +26,7 @@
 
 Aqui podemos colocar em prática o aprendizado do curso da :rocket:**Rocketseat**. Neste projeto está sendo utilizado diferentes tecnologias cada uma com seu importante papel no desenvolvimento da aplicação. :technologist:
 
-Nesta aplicação podemos fazer cadastro de professores e alunos para controle de aulas. Tem todo um cuidado no desenvolvimento de suas rotas, banco de dados e designer da aplicação. 
+Nesta aplicação podemos fazer cadastro de professores e alunos para controle de aulas. Tem todo um cuidado no desenvolvimento de suas rotas, banco de dados e designer da aplicação e implementando um CRUD no projeto.  
 
 ***
 ### Layout do Projeto:
