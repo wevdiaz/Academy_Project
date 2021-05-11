@@ -4,23 +4,23 @@
   
   <a>
       <img src="https://img.shields.io/github/repo-size/wevdiaz/workshop-LaunchBase?color=orange" alt="GitHub repo size">
-  <a/>
+  </a>
   
   <a>
       <img src="https://img.shields.io/github/license/wevdiaz/workshop-LaunchBase?color=orange" alt="GitHub license">
-  <a/>
+  </a>
   
   <a>
       <img src="https://img.shields.io/github/languages/count/wevdiaz/workshop-LaunchBase?color=orange" alt="GitHub language count">
-  <a/>
+  </a>
   
   <a>
       <img src="https://img.shields.io/github/last-commit/wevdiaz/workshop-LaunchBase?color=orange" alt="GitHub last commit">
-  <a/>
+  </a>
   
   <a>
       <img alt="Diazz" src="https://img.shields.io/badge/made%20by-Diazz-Academy_Project?color=orange">      
-  <a/>
+  </a>
   
 </p>
 
@@ -31,15 +31,15 @@ Nesta aplicação podemos fazer cadastro de professores e alunos para controle d
 ***
 ### Layout do Projeto:
 
-![página index](https://raw.githubusercontent.com/wevdiaz/workshop-LaunchBase/master/Academy_Project/img-Teachers/academy_teachers_index.png)
+![página index](https://raw.githubusercontent.com/wevdiaz/Academy_Project/main/img-Teachers/academy_teachers_index.png)
 
                                       page.index
 
-![página Edit](https://raw.githubusercontent.com/wevdiaz/workshop-LaunchBase/master/Academy_Project/img-Teachers/edit_teachers.jpg)
+![página Edit](https://raw.githubusercontent.com/wevdiaz/Academy_Project/main/img-Teachers/edit_teachers.jpg)
 
                                       page.Edit
 
-![página estudante](https://raw.githubusercontent.com/wevdiaz/workshop-LaunchBase/master/Academy_Project/img-Teachers/academy_project_students_index.png)
+![página estudante](https://raw.githubusercontent.com/wevdiaz/Academy_Project/main/img-Teachers/academy_project_students_index.png)
 
                                       page.Student
 
