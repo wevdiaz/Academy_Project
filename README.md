@@ -52,7 +52,7 @@ Nesta aplicação podemos fazer cadastro de professores e alunos para controle d
 * HTML/CSS
 * Node JS
 * Express / Nunjucks
-* Sqlite 
+* PostgreSQL 
 
 ### Requesitos :gear:
 
