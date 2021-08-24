@@ -64,7 +64,7 @@ header {
 
 /* === CARD === */
 .card {
-    max-width: 900px;
+    max-width: 900px;    
     min-height: 500px;
     margin: 45px auto;
     background-color: #fff;
@@ -242,8 +242,9 @@ button[type="submit"]:hover {
     border-spacing: 0;
 }
 
+
 .table-box tbody tr td {
-    text-align: center;
+    text-align: center;    
 }
 
 td, th {
@@ -341,7 +342,7 @@ tbody tr td:nth-child(2) span {
 /* --- Pagination --- */
 .table-box {
     display: grid;
-    grid-template: 64px 1fr 16px / 1fr ;
+    grid-template: 64px 150px 1fr / 1fr ;
 }
 
 .table-box .header_teachers {
