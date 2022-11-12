@@ -43,7 +43,7 @@ Nesta aplicação podemos fazer cadastro de professores e alunos para controle d
 * Express / Nunjucks
 * PostgreSQL 
 
-### Requesitos :gear:
+### Requisitos :gear:
 
 Para verificação da aplicação é necessário instalação dos programas abaixo:
 
